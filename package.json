@@ -1,0 +1,23 @@
+{
+  "name": "@nersantucci/oreo.db",
+  "version": "1.0.0",
+  "description": "Simple and fast local database",
+  "main": "oreo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oreo",
+    "oreo.db",
+    "dboreo",
+    "oreodb",
+    "database",
+    "db"
+  ],
+  "author": "Ner Santucci (decodercc <densa.faradensa2019@gmail.com>)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs": "^0.0.1-security"
+  }
+}
