@@ -60,7 +60,7 @@ module.exports = class ASC {
     }
     push(key, element) {
         if (!key) return logger.error('You have not specified the key to which you will push!');
-        if (!element) return logger.error('You have not specified the element to push!');
+        if (!element) return logger.error('You have not specified the key to which you will push!');
         if (!this.db[key]) this.db[key] = [];
         this.db[key].push(element);
         return this.save();

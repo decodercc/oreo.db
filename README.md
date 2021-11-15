@@ -4,12 +4,12 @@
 
 ## Install
 ```
-npm install oreo.db
+npm install @nersantucci/oreo.db
 ```
 
 ## Examples
 ```js
-const Oreo = require('oreo.db');
+const Oreo = require('@nersantucci/oreo.db');
 const db = new Oreo();
 
 // Set key
